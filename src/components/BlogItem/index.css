@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.item-image {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.item-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #8e8e8e;
+  margin-top: 10px;
+  border-radius: 9px;
+  width: 600px;
+}
+.item-topic {
+  font-size: 20px;
+  font-weight: 500;
+}
+.item-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+.author-info {
+  display: flex;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 80px;
+}
